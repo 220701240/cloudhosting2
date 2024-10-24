@@ -7,6 +7,6 @@ const webserver=serer1.createServer((req,res)=>{
    res.write(`The add is ${add} and the sub is ${sub}`);
     res.end("Hello REC");
 });
-// webserver.listen(3500,()=>{
-// console.log("server is  running in http://localhost:3500");
-// });
+webserver.listen(3500,()=>{
+console.log("server is  running in http://localhost:3500");
+});
